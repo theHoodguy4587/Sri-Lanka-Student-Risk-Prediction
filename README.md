@@ -1,4 +1,3 @@
-# 🎓 Student Academic Risk Prediction (Sri Lanka)
 
 This project predicts whether a secondary school student is at **high academic risk** or **low academic risk** using machine learning.
 It is built using the **Student Performance Dataset** and deployed as an interactive **Streamlit web application**.
@@ -9,8 +8,7 @@ The goal is to help identify students who may benefit from early academic suppor
 
 ## 🚀 Live Application
 
-🔗 *(Add Streamlit Cloud link here after deployment)*
-Example: [https://your-app-name.streamlit.app]()
+🔗 
 
 ---
 
