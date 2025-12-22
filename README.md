@@ -82,13 +82,17 @@ Academic Risk = 0  → Final Grade (G3) ≥ 10
 ```
 Student-Risk-Prediction/
 │
-├── app.py                  # Streamlit web application
-├── train_model.py          # Model training script
-├── student_risk_model.pkl  # Trained ML model
-├── requirements.txt        # Dependencies
-├── README.md               # Project documentation
-└── data/
-    └── student.csv         # Dataset
+├── app.py                           # Streamlit web application
+├── Notebooks/
+|       └── Sri_Lanka_
+|     Student_Risk_Prediction.ipynb   # Model training 
+├──models/
+|      |── stu_risk_model.pkl        # Trained ML model
+|      └── stu_features.pkl          # Features 
+├── requirements.txt                 # Dependencies
+├── README.md                        # Project documentation
+└── Data/
+    └── student.csv                  # Dataset
 ```
 
 ---

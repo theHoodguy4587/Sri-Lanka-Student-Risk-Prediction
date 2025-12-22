@@ -2,8 +2,8 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-model=pickle.load(open("stu_risk_model.pkl","rb"))
-features=pickle.load(open("stu_features.pkl","rb"))
+model=pickle.load(open("models/stu_risk_model.pkl","rb"))
+features=pickle.load(open("models/stu_features.pkl","rb"))
 
 st.title("Student Academic Risk Prediction System (Sri Lanka – Prototype)")
 st.write("This application predicts whether a student is academically **at risk** ""based on mid-term performance and related factors.")
