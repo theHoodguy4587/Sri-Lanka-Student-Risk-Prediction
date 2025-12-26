@@ -1,9 +1,10 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import os
 
-model=pickle.load(open("E:/Student performance/models/student_risk_model.pkl","rb"))
-features=pickle.load(open("E:/Student performance/models/features.pkl","rb"))
+model=pickle.load(open("models/student_risk_model.pkl","rb"))
+features=pickle.load(open("models/features.pkl","rb"))
 
 st.title("Student Academic Risk Prediction System (Sri Lanka – Prototype)")
 st.write("This application estimates whether a student may be academically at risk based on prior academic indicators and related behavioural and family factors.It is intended as an early warning tool to support academic monitoring,not as a prediction of final examination results.")
