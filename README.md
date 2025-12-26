@@ -8,7 +8,7 @@ The goal is to help identify students who may benefit from early academic suppor
 
 ## 🚀 Live Application
 
-🔗 
+🔗 [https://thehoodguy4587-sri-lanka-student-risk-prediction-app-ynxatp.streamlit.app/](https://thehoodguy4587-sri-lanka-student-risk-prediction-app-ynxatp.streamlit.app/)
 
 ---
 
